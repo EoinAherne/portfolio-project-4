@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["paradox22.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["macrosite.herokuapp.com, paradox22.herokuapp.com", "localhost"]
 
 
 # Application definition
