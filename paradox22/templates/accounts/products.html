@@ -1,5 +1,3 @@
-{% load static %}
-
 {% extends 'accounts/main.html' %}
 
 {%  block content %}
@@ -17,8 +15,18 @@
                 <th>Category</th>
                 <th>Price</th>
             </tr>
+
+            {% for i in products %}
+                <tr>
+                <td>{{i.name}}</td>
+                <td>{{i.category}}</td>
+                <td>{{i.price}}</td> 
+                </tr>
+            {% endfor %}
+
+
         </table>
     </div>
 </div>
 
-{% endblock %}
+{% endblock content %}
