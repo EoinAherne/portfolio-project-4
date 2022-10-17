@@ -28,6 +28,14 @@ class Product(models.Model):
     description = models.CharField(max_length=200, null=True)
     date_created = models.DateTimeField(auto_now_add=True, null=True)      
 
+
+class Tag(models.Model):
+    name = models.CharField(max_length=200, null=True)
+    
+      
+    def __str__(self):
+        return self.name
+
 #Order Model
 class Order(models.Model):
     STATUS = (
@@ -42,3 +50,5 @@ class Order(models.Model):
 
     date_created = models.DateTimeField(auto_now_add=True, null=True)
     status = models.CharField(max_length=200, null=True, choices=STATUS)
+
+    tags = models.ManyToManyField(Tag)
