@@ -30,7 +30,7 @@ def customer(request, pk):
 
     customer = Customer.objects.get(id=pk)
 
-    orders = customer.oders_set.all()
+    orders = customer.order_set.all()
     order_count = orders.count()
 
     context = {'customer':customer, 'orders':orders, 'order_count':order_count}
