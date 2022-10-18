@@ -49,11 +49,11 @@ def createOrder(request):
     context = {'form':form }
     return render(request, 'accounts/order_form.html', context)
 
-def updateOrder(request, pk):
+def updateOrder(request, pk_one):
 
     form = OrderForm()
 
-    context = {}
-    return render(request, 'accounts/order_form.html')    
+    context = {'form':form}
+    return render(request, 'accounts/order_form.html', context)    
 
 
