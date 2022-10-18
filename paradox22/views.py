@@ -3,19 +3,16 @@ from django.http import HttpResponse
 from .models import *
 # Create your views here.
 
-
-
 def home(request):
     orders = Order.objects.all()
     customers = Customer.objects.all()
-
+    
     total_customers = customers.count()
-
     total_orders = orders.count()
+    
     delivered = orders.filter(status='Delivered').count()
     pending = orders.filter(status='Pending').count()
-
-
+    
     context = {'orders' :orders, 'customers':customers,
     'total_orders': total_orders, 'delivered':delivered, 'pending':pending}
 
@@ -35,5 +32,11 @@ def customer(request, pk):
 
     context = {'customer':customer, 'orders':orders, 'order_count':order_count}
     return HttpResponse('accounts/customer.html', context)
+
+
+def createOrder(request):
+
+    context = {}
+    return render(request, 'accounts/order_form.html', context)
 
 
