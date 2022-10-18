@@ -26,7 +26,9 @@ def products(request):
 
     return HttpResponse('accounts/products.html', {'products': products})
 
-def customer(request):
+def customer(request, pk):
+
+    customer = Customer.objects.get(id=pk)
     return HttpResponse('accounts/customer.html')
 
 
