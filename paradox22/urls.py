@@ -4,12 +4,8 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name="home"),
-        
     path('create_order/', views.createOrder, name="create_order"),
-    
     path('update_order/<str:pk_one>', views.updateOrder, name="update_order"),
     path('delete_order/<str:pk_one>', views.deleteOrder, name="delete_order"),
-
-
 
 ]
