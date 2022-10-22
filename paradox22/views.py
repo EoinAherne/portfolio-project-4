@@ -35,7 +35,7 @@ def customer(request, pk):
     context = {'customer':customer, 'orders':orders, 'order_count':order_count}
     return HttpResponse('accounts/customer.html', context)
 
-
+#--------------Create view-------->
 def createOrder(request):
 
     form = OrderForm()
@@ -48,6 +48,8 @@ def createOrder(request):
 
     context = {'form':form }
     return render(request, 'accounts/order_form.html', context)
+
+#-------------Update view---------->
 
 def updateOrder(request, pk_one):
 
@@ -64,6 +66,8 @@ def updateOrder(request, pk_one):
 
     context = {'form':form}
     return render(request, 'accounts/order_form.html', context)    
+
+#------------Delete View---->
 
 def deleteOrder(request, pk_one):
 
