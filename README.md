@@ -25,11 +25,40 @@ The dashboard consists of a table that was created by harnassing the power of bo
 
 # Testing
 
+I have thoroughly examined this application for any errors that may arise when trying to use any of the functions. I have found that everything works as intended and the application can be utilised fully from front end and back end without issues.
+
+## Automated Testing
+
+I ran the dev tools lighthouse testing and achieved a high scores for Performance, Accessibility and Best Practices 
+
+
 ## Validation
 
 ## Technologies used
 
+- HTML
+- Bootstrap
+- Python
+- Django
+- PostgreSQL
+- Heroku
+- Cloudinary
+
 ## Deployment
+
+The application was deployed to Heroku as follows
+
+- Step 1 - Install Django and supporting libraries 
+- Step 2 - Create Heroku app on CLI 
+- Step 3 - Add and attach the database
+- Step 4 - Set environment variables in env.py
+- Step 5 - Add secret key to config vars at Heroku.com
+- Step 6 - Prepare Environment in setings.py file
+- Step 7 - Make migrations
+- Step 8 - Get static and media files stored on cloudinary *not used
+- Step 9 - Create Procfile 
+- Step 10 - Push Code 
+- Step 11 - Deploy on main branch 
 
 
 
