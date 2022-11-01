@@ -25,10 +25,12 @@ The dashboard consists of a table that was created by harnassing the power of bo
 ## Form
 
 ![form](paradox22/images/form_paradox22.png)
+The form items are created by the admin on the back end. 
+The user on the front end can select which items they want to populate the form once they select create order on the dashboard
 
 # Testing
 
-I have thoroughly examined this application for any errors that may arise when trying to use any of the functions. I have found that everything works as intended and the application can be utilised fully from front end and back end without issues.
+I have thoroughly examined this application for any errors that may arise when trying to use any of the functions. I have found that everything works as intended and the application can be utilised fully from front end and back end without issues. 
 
 ## Automated Testing
 
@@ -38,6 +40,8 @@ I ran the dev tools lighthouse testing and achieved a high scores for Performanc
 
 
 ## Validation
+
+pep8 online was not working at the time of my project validation testing. I used the problem window in the console to validate any python errors i came across until they were all removed.  
 
 ## Technologies used
 
