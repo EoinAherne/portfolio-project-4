@@ -1,15 +1,16 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo](paradox22/images/pp4_dash.png)
 
 # About
 
 Paradox22 is a pizza restaurant order management system app. Users on the front end can create, read, update and delete orders. While authenticated admistrative users on the back end have the ability to also create and delete customer profiles for the restaurant, as well as manage customer orders. 
+Here you can find a link for the app deployed to [Heroku](https://paradox22.herokuapp.com/)
 
 # User Stories
 
 GitHub issues was used to create User Stories. These were catagorised in order of their priority
 
 
-**inster photo
+![user_stories](paradox22/images/userstories_paradox22.png)
 
 # Features
 
@@ -23,6 +24,8 @@ The dashboard consists of a table that was created by harnassing the power of bo
 
 ## Form
 
+![form](paradox22/images/form_paradox22.png)
+
 # Testing
 
 I have thoroughly examined this application for any errors that may arise when trying to use any of the functions. I have found that everything works as intended and the application can be utilised fully from front end and back end without issues.
@@ -30,6 +33,8 @@ I have thoroughly examined this application for any errors that may arise when t
 ## Automated Testing
 
 I ran the dev tools lighthouse testing and achieved a high scores for Performance, Accessibility and Best Practices 
+
+![lighthouse](paradox22/images/pp4_lighthouse.png)
 
 
 ## Validation
