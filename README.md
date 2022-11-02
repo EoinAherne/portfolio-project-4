@@ -4,13 +4,12 @@
 
 # About
 
-Paradox22 is a pizza restaurant order management system app. Users on the front end can create, read, update and delete orders. While authenticated admistrative users on the back end have the ability to also create and delete customer profiles for the restaurant, as well as manage customer orders. 
+Paradox22 is a pizza restaurant order management system app. Users on the front end can register for an account and login. They also have the ability to create, read, update and delete orders whilst logged in. Authenticated admistrative users on the back end have the ability to also create and delete customer profiles for the restaurant, as well as manage customer orders. 
 Here you can find a link for the app deployed to [Heroku](https://paradox22.herokuapp.com/)
 
 # User Stories
 
 GitHub issues was used to create User Stories. These were catagorised in order of their priority
-
 
 ![user_stories](paradox22/images/userstories_paradox22.png)
 
@@ -18,7 +17,7 @@ GitHub issues was used to create User Stories. These were catagorised in order o
 
 ## Navbar
 
-The navbar shown below was created with the help of Bootstrap technology. I gathered the components i needed and ammended them to suit the needs of the application. The navbar is also fully responsive. 
+The navbar shown below was created with the help of Bootstrap technology. I gathered the components i needed and ammended them to suit the needs of the application. The navbar is also fully responsive. When logged in you have the ability to logout via the navbar on each page.  
 
 ## Dashboard
 
@@ -28,9 +27,12 @@ The dashboard consists of a table that was created by harnassing the power of bo
 
 ![login](paradox22/images/register_paradox22.png)
 
+A late addidtion to the project. The login and registration pages which enable to user to create an account and login to the application dashboard 
+
 ## Form
 
 ![form](paradox22/images/form_paradox22.png)
+
 The form items are created by the admin on the back end. 
 The user on the front end can select which items they want to populate the form once they select create order on the dashboard
 The other form i used was for login authentication on the front-end
@@ -85,4 +87,4 @@ I would like to thank tutor support who were a great help any time i was having 
 
 # References
 
-I used Denis Ivy's django crud application tutorial as inspirition for this project 
+I used Denis Ivy's django CRUD application tutorial as inspirition for this project 
