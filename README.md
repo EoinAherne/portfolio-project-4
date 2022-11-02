@@ -34,6 +34,8 @@ The user on the front end can select which items they want to populate the form 
 
 I have thoroughly examined this application for any errors that may arise when trying to use any of the functions. I have found that everything works as intended and the application can be utilised fully from front end and back end without issues. 
 
+The biggest oversight i had during testing was not having the ability to access the admin panel from the front-end. This is something i an currently working on. I have added authorisation to the front-end now for better user and administrative control.  
+
 ## Automated Testing
 
 I ran the dev tools lighthouse testing and achieved a high scores for Performance, Accessibility and Best Practices 
@@ -71,6 +73,10 @@ The application was deployed to Heroku as follows
 - Step 10 - Push Code 
 - Step 11 - Deploy on main branch 
 
+# Credits
 
+I would like to thank tutor support who were a great help any time i was having difficulty with any aspects of the project, from initilisation to deployment
 
+# References
 
+I used Denis Ivy's django crud application tutorial as inspirition for this project 
