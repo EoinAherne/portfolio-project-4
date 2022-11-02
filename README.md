@@ -24,17 +24,22 @@ The navbar shown below was created with the help of Bootstrap technology. I gath
 
 The dashboard consists of a table that was created by harnassing the power of bootstrap once more. Choosing to make the table the width of the screen and fully responsive makes the application easy to understand when interacting with it. This is where the user has the ability to create, read, and update the order. The create order button will lead the user to a form page which will allow them to create the order. The ability to update and delete the order is activated by clearly labelled buttons of the same names
 
+## Login Authentication
+
+![login](paradox22/images/register_paradox22.png)
+
 ## Form
 
 ![form](paradox22/images/form_paradox22.png)
 The form items are created by the admin on the back end. 
 The user on the front end can select which items they want to populate the form once they select create order on the dashboard
+The other form i used was for login authentication on the front-end
 
 # Testing
 
 I have thoroughly examined this application for any errors that may arise when trying to use any of the functions. I have found that everything works as intended and the application can be utilised fully from front end and back end without issues. 
 
-The biggest oversight i had during testing was not having the ability to access the admin panel from the front-end. This is something i an currently working on. I have added authorisation to the front-end now for better user and administrative control.  
+The biggest oversight i had during testing was not having the ability to access the admin panel from the front-end. I have added authorisation to the front-end now for better user and administrative control.  
 
 ## Automated Testing
 
@@ -45,7 +50,8 @@ I ran the dev tools lighthouse testing and achieved a high scores for Performanc
 
 ## Validation
 
-pep8 online was not working at the time of my project validation testing. I used the problem window in the console to validate any python errors i came across until they were all removed.  
+pep8 online was not working at the time of my project validation testing. I used the problem window in the console to validate any python errors i came across until they were all removed. 
+ 
 
 ## Technologies used
 
