@@ -8,10 +8,11 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="{% url 'home' %}">Dashboard</a>
-        
-        
+
+
 
       </div>
     </div>
+    <span class="hello-msg">Hello, {{request.user}}</span>
+  <span ><a  class="hello-msg" href="{% url 'logout' %}">Logout</a></span>
   </nav>
-
